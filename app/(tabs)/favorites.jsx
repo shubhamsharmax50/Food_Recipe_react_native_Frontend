@@ -27,7 +27,7 @@ const FavoritesScreen = () => {
         const transformedFavorites = favorites.map((favorite) => ({
           ...favorite,
           id: favorite.recipeId,
-        }));
+           }));
 
         setFavoriteRecipes(transformedFavorites);
       } catch (error) {
